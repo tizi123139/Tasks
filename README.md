@@ -30,7 +30,7 @@
 >
 >     [CSS学习记录](https://github.com/tizi123139/Tasks/blob/main/CSS学习笔记.md)
 
-​            [HTML学习记录](https://github.com/tizi123139/Tasks/blob/main/HTML学习笔记.md)
+​                 [HTML学习记录](https://github.com/tizi123139/Tasks/blob/main/HTML学习笔记.md)
 
 ---
 
