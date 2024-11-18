@@ -1,8 +1,12 @@
-#                                         css
+# css
 
-css全名是cascading style sheets，意为层叠样式表，用于定义网页样式和布局的样式表语言。通过css可以指定页面中各个元素的颜色、字体、大小、间距、边框、背景等样式，从而实现更精确的页面设计。
+*css全名是cascading style sheets，意为层叠样式表，用于定义网页样式和布局的样式表语言。通过css可以指定页面中各个元素的颜色、字体、大小、间距、边框、背景等样式，从而实现更精确的页面设计。*
 
-语法
+---
+
+
+
+## 语法
 
 css由选择器以及一条或多条声明组成，
 
@@ -18,15 +22,25 @@ css由选择器以及一条或多条声明组成，
 
 p {    color:red;    text-align:center; }
 
-css导入方式
+---
+
+
+
+## css导入方式
 
 1. 内联样式
 2. 内部样式表
 3. 外部样式表
 
-选择器
+---
 
-类选择器用于描述一组元素的样式
+
+
+## 选择器
+
+- ### 类选择器
+
+用于描述一组元素的样式
 
 类选择器以一个点 **.** 号显示
 
@@ -34,7 +48,7 @@ css导入方式
 
 
 
-元素选择器
+- ### 元素选择器
 
 选择并设置所有 <p> 元素的样式：
 
@@ -47,13 +61,15 @@ background-color:yellow;
 
 
 
-id 选择器可以为标有特定 id 的 HTML 元素指定特定的样式，id 选择器以 "#" 来定义。
+- ### id 选择器
+
+  可以为标有特定 id 的 HTML 元素指定特定的样式，id 选择器以 "#" 来定义。
 
 \#para1 {    text-align:center;    color:red; }
 
 
 
-通用选择器
+- ### 通用选择器
 
 选择所有元素，并设置它们的背景色：
 
@@ -64,7 +80,11 @@ background-color:yellow;
 }
 ```
 
-设置元素
+---
+
+
+
+## 设置元素
 
 p.ex
 {
@@ -72,7 +92,11 @@ p.ex
 	width:100px;
 }
 
-盒子模型
+---
+
+
+
+## 盒子模型
 
 
 
@@ -88,7 +112,7 @@ p.ex
 
 - **Content(内容)** - 盒子的内容，显示文本和图像。
 
-   margin
+   ### margin
 
 margin 清除周围的（外边框）元素区域。margin 没有背景颜色，是完全透明的。
 
@@ -113,7 +137,7 @@ margin-top:100px; margin-bottom:100px; margin-right:50px; margin-left:50px;
 - 左右边距为50px
 - 下边距为75px
 
-outline
+### outline
 
 | 属性                                                         | 说明                           | 值                                                           |
 | :----------------------------------------------------------- | :----------------------------- | :----------------------------------------------------------- |
@@ -122,7 +146,7 @@ outline
 | [outline-style](https://www.runoob.com/cssref/pr-outline-style.html) | 设置轮廓的样式                 | none dotted dashed solid double groove ridge inset outset inherit |
 | [outline-width](https://www.runoob.com/cssref/pr-outline-width.html) | 设置轮廓的宽度                 | thin medium thick *length *inherit                           |
 
-border-style值
+#### border-style值
 
 none: 默认无边框
 
@@ -142,37 +166,45 @@ inset:定义一个3D的嵌入边框。效果取决于边框的颜色值
 
 outset: 定义一个3D突出边框。 效果取决于边框的颜色值
 
-定位
+---
+
+
+
+## 定位
 
 position 属性的五个值：
 
-- static
+- ### static
 
 ​        HTML 元素的默认值，即没有定位，遵循正常的文档流对象。静态定位的元素不会受到 top, bottom, left, right影响。
 
 ​         div.static {    position: static;    border: 3px solid #73AD21; }
 
-- relative
+- ### relative
 
 ​       相对定位元素的定位是相对其正常位置。
 
-- fixed
+- ### fixed
 
 ​      元素的位置相对于浏览器窗口是固定位置。即使窗口是滚动的它也不会移动：
 
 ​       p.pos_fixed {    position:fixed;    top:30px;    right:5px; }
 
-- absolute
+- ### absolute
 
 ​        绝对定位的元素的位置相对于最近的已定位父元素，如果元素没有已定位的父元素，那么它的位置相对于<html>
 
-- sticky
+- ### sticky
 
 ​       粘性定位的元素是依赖于用户的滚动，在 **position:relative** 与 **position:fixed** 定位之间切换。
 
-伪类
+---
 
-CSS伪类是用来添加一些选择器的特殊效果。
+
+
+## 伪类
+
+*CSS伪类是用来添加一些选择器的特殊效果。*
 
 伪类的语法：
 
@@ -182,11 +214,17 @@ CSS类也可以使用伪类：
 
 selector.class:pseudo-class {property:value;}
 
-传统网页布局方式
+----
+
+
+
+## 传统网页布局方式
 
 1. 标准流
 2. 浮动
 3. 定位
 4. flexbox
 5. grid
+
+---
 

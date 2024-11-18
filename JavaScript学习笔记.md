@@ -152,3 +152,6 @@ var person={firstname:"John", lastname:"Doe", id:5566};
 Undefined 这个值表示变量不含有值。
 
 可以通过将变量的值设置为 null 来清空变量。
+
+---
+
