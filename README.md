@@ -34,7 +34,7 @@
 >     
 >     [JavaScript学习记录](https://github.com/tizi123139/Tasks/blob/main/JavaScript学习笔记.md)
 >     
->     [创建的页面](https://github.com/tizi123139/Tasks/blob/main/demo.html)
+>     [创建的页面](https://tizi123139.github.io/)
 
 ---
 
