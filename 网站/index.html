@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geek招新网站 加入我们</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+     
+        .abouts  ul{
+            width:100%;
+            height:auto;
+            margin-top: 50px;
+        }
+        .abouts ul:hover{
+            transition: all;
+          cursor: pointer; 
+          height:210px;
+          width: 1500px;
+        }/*鼠标移动到四个框上会发生变化*/
+        .main {
+            width:1550px;
+            height:1000px;
+            padding: 10px 1%;
+            margin-left:100px;
+            border: 7px solid grey;
+            border-radius: 25px;  
+            background-color: #fcf4f4;
+            margin-top: 40px;
+        }
+        .contact {
+            width:1550px;
+            height:800px;
+            padding: 10px 1%;
+            margin-left:100px;
+            border: 10px solid rgb(2, 79, 2);  
+            border-radius: 25px;
+        }
+        .qa {
+            width:1550px;
+            height:1000px;
+            margin-left:100px;
+            border: 10px solid rgb(63, 127, 255);  
+            border-radius: 25px;
+            margin-top: 200px;
+            position: relative;
+        }
+        
+        .abouts  ul li {
+            width:100%;
+            height: 500px;
+            display:flex;
+            margin-bottom: 30px;
+            border: 10px solid grey;
+            justify-content: space-between;
+            padding: 30px;
+            border-radius: 25px;
+        }
+        .img0 {
+            width:100%;
+              
+         }
+        .img1 {
+            width:25%;
+            height:85%;
+            margin-top: 50px;
+            margin-right: 50px;  
+         }/*给放置在右边的两张图设置样式*/
+    
+        .img2 {
+            width:25%;
+            height:85%;
+            margin-top: 50px;
+            margin-left: 50px; 
+         }/*给放置在左边的两张图设置样式*/
+
+         .img3 {
+            width: 200px;
+            height:200px;
+            margin-top: 40px;
+            margin-right: 1px;
+           margin-bottom: 20px;
+         }
+         
+         .img4 {
+            width: 200px;
+            height:200px;
+           
+         }
+         .img5 {
+            width: 200px;
+            height:700px;
+            float: right;      
+            margin-right: -50px;
+         }
+         .img6 {
+            width: 300px;
+            height:350px;
+            float: left;
+            margin-top: -30px;
+            position: relative;
+         }
+         .img7 {
+            width: 500px;
+            height:250px;
+            float: right;
+         }/*设置变色龙形状*/
+         .img8 {
+            width: 200px;
+            height:200px;
+         }/*设置七星瓢虫形状*/
+         .img10 {
+            width: 100px;
+            height:100px;
+            margin-bottom: -100px;
+         }
+         
+         .abouts img:hover{
+          transition: all;
+          box-shadow: 6px 4px 6px slategrey;
+          cursor: pointer; 
+          transform: rotateZ(10deg);
+         } /*鼠标移动到四张图上会发生变化*/
+
+         .wsx:hover{
+          transition: all;
+          box-shadow: 6px 4px 6px slategrey;
+          cursor: pointer; 
+          height:500px;
+          width: 310px;
+         } /*鼠标移动到三个框会发生变化*/
+
+        .abouts ul li .right_contents{
+            width: 69%; 
+            height: 100%;
+            font-size: 25px;
+            padding: 20px;
+        }
+
+        .abouts ul li h1{
+            color:black;
+        }
+
+        .main ul{
+            border: 10px solid purple;
+            height: 500px;
+            margin: 80px;
+            padding: 50px;
+            width: 300px;
+            float: left;
+            border-radius: 25px;
+            
+        }
+        .contact ul{
+            height: 400px;
+            margin-left: 300px;
+            padding: 50px;
+            width: 60%;
+            
+        }
+
+        .jjj {
+            color: #6495ED;
+        }/* 四个标题对应四种颜色*/
+        .kkk {
+            color: #e489e4;
+        }/* 四个标题对应四种颜色*/
+        .lll {
+            color: #4ad7d7;
+        }/* 四个标题对应四种颜色*/
+        .mmm {
+            color: #ffbfb8;
+        }/* 四个标题对应四种颜色*/
+        .qqq {
+            color: gray;
+            text-align: center;
+            font-size: 50px;
+        }
+        .www {
+            color: green;
+            text-align: left;
+            font-size: 50px;
+            margin-left: 600px;
+        }
+        .ppp {
+            color: green;
+            text-align: center;
+            font-size: 50px;
+        }
+        .yyy{
+            position: absolute; left: 50%; top: 40px; transform: translateX(-50%); color: rgb(5, 5, 5); font-size: 60px;
+        }
+        .footer {
+            width: 100%;
+            background-color: rgba(230, 230, 230);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }/* 给底页设置样式*/
+  .footer #footer1 {
+            margin-top: 10px;
+            padding-top: 5px;
+            border: 1px gray solid;
+            border-left: transparent;
+            border-right: transparent;
+            border-bottom: transparent;
+            font-size: 15px;
+            width: 80%;
+            text-align: center;
+        }/* 给底页设置样式*/
+  .footer #footer2 {
+            font-size: 13px;
+            width: 90%;
+            text-align: center;
+            margin-bottom: 5px;
+            padding-bottom: 15px;
+            border: 1px gray solid;
+            border-left: transparent;
+            border-right: transparent;
+            border-top: transparent;
+        }/* 给底页设置样式*/
+       
+    </style>
+</head>
+<body>
+    <div class="header">  <!--导航栏的五个标题-->
+        <a href="#intro">Introduction</a><!--点开可滑动至对应页面-->
+        <a href="#about">About US</a><!--点开可滑动至对应页面-->
+        <a href="https://campus.new-thread.com" target="_blank">NewThread</a><!--点开跳转到其他页面-->
+        <a href="#con">Contact US</a><!--点开可滑动至对应页面-->
+        <a href="#qqaa">Q&A</a><!--点开可滑动至对应页面--> 
+    </div>
+    <style>
+        .middle {
+            position: relative;
+            text-align: center;
+        }
+    
+        .middle img {
+            width:150px;
+            height:200px;
+        }
+    
+        .middle .overlay {
+            position: absolute;
+            top: 150px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 30%;
+            height: auto;
+            object-fit: cover;
+        }/*将geek大标志放在背景图中*/
+        .overlay:hover{
+          transition: all;
+          cursor: pointer; 
+          height:350px;
+          width: 700px;/*给geek标志设置样式，鼠标移动会变大*/
+         } 
+
+        
+       
+    </style>
+    <section class="middle">
+        <img src="复刻招新网站要求点/images/background_Homepage.png" alt="" style="width: 100%; height: auto;">
+        <img src="复刻招新网站要求点/images/decoration_Geek.png" alt="" class="overlay">
+    </section>
+
+<img src="复刻招新网站要求点/images/decoration_Transition.png" alt="" class="img0">
+    <div class="abouts"><!--设置introduction板块-->
+        
+        <h2 class="introduction" id="intro">Introduction</h2>
+        <ul>
+            <li>  
+                <div class="right_contents">
+                    <h1>开发程序员</h1><br>
+                    <h2 class="jjj">“Stay Hungry，Stay Foolish”</h2><br>
+                    前端：前端开发是创建Web或app视觉界面呈现给用户的过程通过HTML，CSS及JavaScript以及衍生出来的各种技术、框架、解决方案，实现互联网产品的用户界面交互。<br>
+
+后端：通常也称服务器端开发。不对用户显示,负责处理前端的请求，进行逻辑处理和数据交互。<br> 客户端: 移动应用开发是为了小型、无线计算设备编写软件的流程和程序的集合，例如智能手机或平板电脑。
+                </div>
+                <img src="复刻招新网站要求点/images/Geek_Programmer.png" alt="" class="img1">
+            </li>
+            <li>
+                <img src="复刻招新网站要求点/images/Geek_PM.png" alt="" class="img2">
+                <div class="right_contents">
+                    <h1>产品经理</h1><br>
+                    <h2 class="kkk">"好的软件的特征是,明明没用过，但总觉得用过似的。"</h2> <br> 
+                    PM是针对某一项或是某一类的产品进行规划和管理的人员。 PM需要拥有缜密的产品逻辑思维，研究用户心理，负责产品的整个生命周期。 PM参与产品的UI和交互设计，为设计和开发确定产品原型，能够将产品变得有个性,操作变得舒适简单、自由。 PM需要一定的文档能力和沟通能力，能够在团队合作的过程中跟各个角色进行有效沟通。
+                </div>
+            </li>
+            <li>
+                
+                <div class="right_contents">
+                    <h1>游戏开发</h1><br>
+                    <h2 class="lll">"TECH OTAKUS SAVE THE WORLD"</h2><br>
+对游戏开发的热爱和追求，使我们相聚于此。 涉及计算机图形学的学习，我们使用物理模拟引擎Unity开发我们所追求的世界，一个故事，一个角色，在我们的世界里改变现实，创造新的可能，我们参与，我们改变，我们创造...
+                </div>
+                <img src="复刻招新网站要求点/images/Geek_Game.png" alt="" class="img1">
+            </li>
+            <li>
+                <img src="复刻招新网站要求点/images/Geek_security.png" alt="" class="img2">
+                <div class="right_contents">
+                    <h1>安全</h1><br>
+                    <h2 class="mmm">"路漫漫其修远兮，非大毅力者不能"</h2><br>
+我们主要学习Web安全和二进制安全。在Web安全中我们将学习和实践Web漏洞挖掘技术，也将探索和讨论Web安全实践的方法。在二进制安全中我们专注于分析和防御与计算机程序、系统相关的威胁，同时实践漏洞分析和修补。耐心和钻研缺一不可。
+                </div>
+            </li>
+            
+        </ul>
+        
+    </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><!--我不知道为什么两个板块会有重叠，所以只能这样换行了（捂脸笑）（捂脸笑）-->
+
+   
+    <div class="main" id="about"><!--构造About US板块-->
+        <img src="复刻招新网站要求点/images/decoration_Decoration.png" alt=""
+        style=" width: 300px; height: 150px;margin-top: -60px;transform:rotateY(180deg);">
+    <img src="复刻招新网站要求点/images/decoration_Decoration.png" alt=""
+        style=" width: 300px; height: 150px;float: right;margin-top: -60px;">
+        <h2 class="qqq">About US</h2>
+        <!--构造三个框框-->
+            <div>
+        <ul class="wsx">
+            <img src="复刻招新网站要求点/images/about_Speech.png" alt="" class="img4"><br><br><br>
+        <div>
+                <p style="font-size: 20px;">
+                    每周我们会举行一次技术例会，用来汇报我们的学习内容，供成员之间交流学习。
+                </p>
+        </div>
+       </ul>
+       </div>
+       
+
+       <div>
+        <ul class="wsx">
+           <img src="复刻招新网站要求点/images/about_Diversity.png" alt="" class="img4"><br><br><br>
+            <div>
+                <p style="font-size: 20px;">
+                    多元化是我们的特色。在这里，你可以拥有多种方向选择，前后端、安全、AI、产品/设计、游戏等。
+                </p>
+            </div>
+        </ul>
+       </div>
+
+       <div>
+        <ul class="wsx">
+        <img src="复刻招新网站要求点/images/about_Time.png" alt="" class="img4"><br><br><br>
+        <div>
+                <p style="font-size: 20px;">
+                    耐心、毅力是我们必备的品质，每周我们会至少花30小时在实验室中。以保证技术的精进。
+                </p>       
+        </div>
+        <img src="复刻招新网站要求点/images/decoration_Butterfly.png"  alt="" class="img3">
+    </ul>
+    <img src="复刻招新网站要求点/images/decoration_Decoration.png" alt=""
+        style=" width: 300px; height: 150px;margin-bottom: -200px;transform:rotateZ(180deg);">
+    <img src="复刻招新网站要求点/images/decoration_Decoration.png" alt=""
+        style=" width: 300px; height: 150px;float: right;margin-top: 80px; margin-bottom: -180px;transform:rotateX(180deg);">
+       </div>
+        
+    </div>
+    <br><br><br><br><br><br><br></br>
+
+    
+    <div class="contact" id="con"><!--构造contact us板块-->
+<img src="复刻招新网站要求点/images/decoration_TreeWithSometing.png" alt="" class="img6"><img src="复刻招新网站要求点/images/decoration_Leaves.png" alt=""class="img10">
+        <h2 class="www">Contact US</h2>
+      <img src="复刻招新网站要求点/images/decoration_Tree.png" alt="" class="img5"> 
+        <div> 
+            <ul>
+                
+                <p style="font-size: 30px;">•热爱计算机，具有geek精神，喜欢DIY，动手能力较强</p><br>
+                <p style="font-size: 30px;">•有编程/算法/硬件基础为佳(有作品可附上)</p><br>
+                <p style="font-size: 30px;">•有足够的空余时间，热爱思考，对事物有自己的见解</p><br><br>
+                <p style="font-size: 20px;"> ps:非新思路统招只有通过发送邮件自我介绍后，收到邮件回执后才会被允许进群,在读学生, 都可邮件到newthread_geek@outlook.com报名加入<br>(信中需备注个人基本信息以及意向方向,此招新活动为长期招新)</p>
+             </ul>
+             <br><br><br>
+             <div style="text-align: center;">
+            <!--设置三个互动按钮-->
+                <div style=" position: relative; margin-left: -400px; margin-top: -100px; overflow: visible;">
+                <button style="margin-top: 10px; padding: 5px 10px; background-color: rgb(5, 174, 5); border: none;border-radius: 5px; font-size: 30px; margin-right: 20px; color: white; cursor: pointer;">
+                   <a href="https://jq.qq.com/?_wv=1027&k=5H2GDXV1"target="_blank">QQ-Group</a>
+                 </button>
+                </div>
+
+                 <div class="wzy" style=" width: 150px; height: 60px;position: relative;margin-top: -50px; left: 40%; text-align: center; line-height: 20px;">
+                <button style="margin-top: 10px; padding: 5px 10px; background-color: rgb(5, 174, 5); border: none; 
+    border-radius: 5px; font-size: 30px;  margin-right: -100px; color: white; cursor: pointer;">
+                   <a>E-mail</a>
+                 </button>
+
+                 <span style="display: none; position: absolute; bottom: 70px; left: 50%; transform: translateX(-50%); background-color: white; border: 1px solid gray; padding: 5px; font-size: 12px; color: black; 
+                   border-radius: 5px; white-space: nowrap; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);">
+           Geek的邮箱已经复制到剪贴板了❤(*^▽^*)(*^▽^*)❤
+                </span>
+                </div>
+             <!--设置GitHub按钮，点击跳转到其他页面-->
+                <div style=" width: 150px;height: 60px; position: relative; left: 50%; margin-top: -60px; overflow: visible;">
+                 <button style="margin-top: 10px;margin-right: -300px; padding: 5px 10px; background-color:rgb(5, 174, 5); border: none; 
+    border-radius: 5px; font-size: 30px; color: white; cursor: pointer;">
+                  <a href="https://www.bilibili.com/video/BV1GJ411x7h7" target="_blank">Github</a> 
+                 </button></div>
+           
+            </div>
+           
+            <img src="复刻招新网站要求点/images/decoration_Chameleon.png" alt="" class="img7">
+            <img src="复刻招新网站要求点/images/decoration_Ladybug.png" alt="" class="img8">
+            
+        </div> 
+    </div>
+
+    <div class="qa" id="qqaa"><!--设置Q&A页面-->
+        
+        <img src="复刻招新网站要求点/images/background_QA.png" alt="" style="width: 100%; height: 100%;"><!--设置背景图-->
+           <h2 class="yyy">More Questions</h2> 
+        <!--设置7个问题-->
+           <button onclick="toggleAnswer1()"
+        style=" background-color: rgba(255, 255, 255, 0);position: absolute; border-color: transparent; left: 50%; top: 13%; transform: translateX(-50%); width:500px; height: 50px;  cursor: pointer;text-align: left;font-size: 25px;">
+        1.什么是Geek(极客)？Geek精神又是什么？
+    </button>
+
+    <!-- 回答内容 -->
+    <div id="answer1"
+        style="display: none; position: absolute; left: 50%; top: 17%; transform: translateX(-50%); width: 1100px;background-color: rgba(255, 255, 255, 0); padding: 10px; font-size: 20px;background-color: #6495ED; color: white; border-radius: 5px; ;">
+        拥有好奇之心，改变之力，爱钻研，能折腾。
+    </div>
+    <button onclick="toggleAnswer2()"
+        style=" background-color: rgba(255, 255, 255, 0);position: absolute; left: 50%;border-color: transparent; top: 22%; transform: translateX(-50%); width: 500px; height: 50px; cursor: pointer;text-align: left;font-size: 25px;">
+        2.招新是安排在什么时间？
+    </button>
+    
+    <!-- 回答内容 -->
+    <div id="answer2"
+        style="display: none; position: absolute; left: 50%; top: 25%; transform: translateX(-50%); width: 1100px; background-color: rgba(255, 255, 255, 0); padding: 10px;  font-size: 20px;background-color: #6495ED; color: white; border-radius: 5px; ">
+        按照惯例，正式招新时间是在9月下旬~10月上旬，不过今年会有一些改动，笔试地 点一般在9号教学楼。 如果想要了解我们，可以加入我们的QQ群，招新具体的安排/变动会在招新群通知。
+    </div>
+
+    <button onclick="toggleAnswer3()"
+        style=" background-color: rgba(255, 255, 255, 0);position: absolute; left: 50%;border-color: transparent; top: 32%; transform: translateX(-50%); width:500px; height: 50px; cursor: pointer;text-align: left;font-size: 25px;">
+        3.我们有考核吗？考核流程是怎样的呀？
+    </button>
+    
+    <!-- 回答内容 -->
+    <div id="answer3"
+        style="display: none; position: absolute; left: 50%; top: 36%; transform: translateX(-50%); width:1100px; background-color: rgba(255, 255, 255, 0); padding: 10px;  font-size: 20px;background-color: #6495ED; color: white; border-radius: 5px; ">
+        嗯...我们一共有一轮笔试和两轮面试。权衡技术、经验和学习能力，第一轮是一些视野性的题目，淘汰率并不高。第二轮单独面试， 根据你的笔试提出技术相关的问题、兴趣爱好、个人看法。最后一轮群面，首先问及时间分
+        配上的问题，其次也会向你提出各种奇怪的问题。这一轮中许多题目其实并不难，也无标准答案，重在考察同学们在压力下的逻辑思维。全部通过成为预备成员啦。
+    </div>
+
+
+    <button onclick="toggleAnswer4()"
+        style=" background-color: rgba(255, 255, 255, 0);position: absolute; left: 50%;border-color: transparent; top: 47%; transform: translateX(-50%); width:500px; height: 50px; cursor: pointer;text-align: left;font-size: 25px;">
+        4.考核是怎样的形式？
+    </button>
+    
+    <!-- 回答内容 -->
+    <div id="answer4"
+        style="display: none; position: absolute; left: 50%; top: 50%; transform: translateX(-50%); width:1100px; background-color: rgba(255, 255, 255, 0); padding: 10px; font-size: 20px;background-color: #6495ED; color: white; border-radius: 5px;">
+        在考核期间每人会拥有一位'长者'带你入门，学习技术与知识，交流经验与想法。完成每周的新人任务后再进行一次考核筛选 后就可以成为Geek组正式成员啦！在考核期必须满足每周30个小时在实验室哦,所以考核期也不可以懈怠哦！
+    </div>
+
+
+    <button onclick="toggleAnswer5()"
+        style=" background-color: rgba(255, 255, 255, 0);position: absolute; left: 50%;border-color: transparent; top: 56%; transform: translateX(-50%); width: 500px; height: 50px; cursor: pointer;text-align: left;font-size: 25px;">
+        5.进入Geek组之后都有什么福利呢？
+    </button>
+    
+    <!-- 回答内容 -->
+    <div id="answer5"
+        style="display: none; position: absolute; left: 50%; top: 60%; transform: translateX(-50%); width: 1100px; background-color: rgba(255, 255, 255, 0); padding: 10px;  font-size: 20px;background-color: #6495ED; color: white; border-radius: 5px; ">
+        一对一的新人指引，每一个成员都有会一个mentor, 带你初入门槛，与你一同成长，组内管理较宽松,在尊重其他人的前提下可以尽情发挥自己的个性。
+        打破平淡，与同样疯狂的人把疯狂的idea实现，磨砺耐性、培养思维、成就梦想。Lab设备/网络资源充足，闲暇之余也有组织活动。更有许多的故事等你来听~
+    </div>
+
+    <button onclick="toggleAnswer6()"
+        style=" background-color: rgba(255, 255, 255, 0);position: absolute; left: 50%;border-color: transparent; top: 69%; transform: translateX(-50%); width:500px; height: 50px; cursor: pointer;text-align: left;font-size: 25px;">
+        6.进入团队会影响我的日常学习吗？
+    </button>
+    
+    <!-- 回答内容 -->
+    <div id="answer6"
+        style="display: none; position: absolute; left: 50%; top: 73%; transform: translateX(-50%); width:1100px; background-color: rgba(255, 255, 255, 0); padding: 10px;  font-size: 18px;background-color: #6495ED; color: white; border-radius: 5px;">
+        你要知道大学是一个可以自由安排自己学习生活的地方。如果你想在上课之余充实自己、激励自己，最好的方法就是和比自己更优秀的人在一起。团队不缺优秀的 人，而我们也期待同样优秀的你，让我们一起前进！小组里也有不少保研, 考研的前辈们,
+        大部分都能找到一个平衡点, 而且团队的经历对你日后读研, 工作都大有裨益。
+    </div>
+
+    <button onclick="toggleAnswer7()"
+        style=" background-color: rgba(255, 255, 255, 0);position: absolute; left: 50%;border-color: transparent; top: 82%; transform: translateX(-50%); width: 500px; height: 50px;  cursor: pointer;text-align: left;font-size: 25px;">
+        7.老师以及学长学姐们的期望是什么?
+    </button>
+    
+    <!-- 回答内容 -->
+    <div id="answer7"
+        style="display: none; position: absolute; left: 50%; top: 87%; transform: translateX(-50%); width: 1100px; background-color: rgba(255, 255, 255, 0); padding: 10px; font-size: 20px;background-color: #6495ED; color: white; border-radius: 5px; ">
+        我们希望你有很强的自学能力，同时关注新事物、新技术，喜欢挑战，逻辑性强，善于和各种文化的人合作.“每个人都可以做自己想做的事情，每个人的方向不一样。 如果你想做产品或有不错的 idea，那么就可以找志同道合的人一起合作。
+    </div>
+    </div>
+    <br><br><br><br><br><br></br>
+    <script>
+        function toggleAnswer1() {
+            const answerDiv1 = document.getElementById("answer1");
+            // 切换显示状态
+            if (answerDiv1.style.display === "none" || answerDiv1.style.display === "") {
+                answerDiv1.style.display = "block"; // 显示回答内容
+            } else {
+                answerDiv1.style.display = "none"; // 隐藏回答内容
+            }
+        }
+    </script>
+    <script>
+        function toggleAnswer2() {
+            const answerDiv2 = document.getElementById("answer2");
+            // 切换显示状态
+            if (answerDiv2.style.display === "none" || answerDiv2.style.display === "") {
+                answerDiv2.style.display = "block"; // 显示回答内容
+            } else {
+                answerDiv2.style.display = "none"; // 隐藏回答内容
+            }
+        }
+    </script>
+    <script>
+        function toggleAnswer3() {
+            const answerDiv3 = document.getElementById("answer3");
+            // 切换显示状态
+            if (answerDiv3.style.display === "none" || answerDiv3.style.display === "") {
+                answerDiv3.style.display = "block"; // 显示回答内容
+            } else {
+                answerDiv3.style.display = "none"; // 隐藏回答内容
+            }
+        }
+    </script>
+    
+    <script>
+        function toggleAnswer4() {
+            const answerDiv4 = document.getElementById("answer4");
+            // 切换显示状态
+            if (answerDiv4.style.display === "none" || answerDiv4.style.display === "") {
+                answerDiv4.style.display = "block"; // 显示回答内容
+            } else {
+                answerDiv4.style.display = "none"; // 隐藏回答内容
+            }
+        }
+    </script>
+    <script>
+        function toggleAnswer5() {
+            const answerDiv5 = document.getElementById("answer5");
+            // 切换显示状态
+            if (answerDiv5.style.display === "none" || answerDiv5.style.display === "") {
+                answerDiv5.style.display = "block"; // 显示回答内容
+            } else {
+                answerDiv5.style.display = "none"; // 隐藏回答内容
+            }
+        }
+    </script>
+    <script>
+        function toggleAnswer6() {
+            const answerDiv6 = document.getElementById("answer6");
+            // 切换显示状态
+            if (answerDiv6.style.display === "none" || answerDiv6.style.display === "") {
+                answerDiv6.style.display = "block"; // 显示回答内容
+            } else {
+                answerDiv6.style.display = "none"; // 隐藏回答内容
+            }
+        }
+    </script>
+    <script>
+        function toggleAnswer7() {
+            const answerDiv7 = document.getElementById("answer7");
+            // 切换显示状态
+            if (answerDiv7.style.display === "none" || answerDiv7.style.display === "") {
+                answerDiv7.style.display = "block"; // 显示回答内容
+            } else {
+                answerDiv7.style.display = "none"; // 隐藏回答内容
+            }
+        }
+    </script>
+    <div class="footer"><!--设置页面底部部分-->
+        <div id="footer1">[prentending this is true<i class="fa fa-desktop"></i>]</div>
+        <div id="footer2">Copyright©2002-2022 itaweya.github.io All Right
+            Reserved 备案号：有个屁啊随便写</div>
+    </div>
+    <script>//设置复制邮箱按钮
+        // 获取 class 为 'wzy' 的主容器
+        const wzy = document.querySelector('.wzy');
+    
+        // 获取提示框（span 元素）
+        const tool = wzy.querySelector('span');
+    
+        // 当鼠标移入，显示提示框
+       wzy.addEventListener('mouseenter', () => {
+            tool.style.display = 'block'; // 显示提示框
+        });
+    
+        // 当鼠标移出，隐藏提示框
+        wzy.addEventListener('mouseleave', () => {
+            tool.style.display = 'none'; // 隐藏提示框
+        });
+    
+        const button = wzy.querySelector('button');
+        button.addEventListener('click', () => {
+            // 获取提示框中的数字内容
+            const textToCopy = tool.textContent;
+    
+            // 复制内容到剪贴板
+            navigator.clipboard.writeText(textToCopy)
+                .then(() => {
+                    alert('数字已复制到剪贴板：' + textToCopy);
+                })
+                .catch(err => {
+                    console.error('复制失败：', err);
+                });
+        });
+    </script>
+</body>
+</html>
