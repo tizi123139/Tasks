@@ -6,9 +6,9 @@
 
 > * ## **第一阶段**       
 >
->    [Github学习记录](https://github.com/tizi123139/Tasks/blob/main/Github%E7%9A%84%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95.md)
+>    [Github学习记录](https://github.com/tizi123139/Tasks/blob/main/第一阶段/Github的学习记录.md)
 >    
->    [Markdown学习记录](https://github.com/tizi123139/Tasks/blob/main/Markdown学习笔记.md)
+>    [Markdown学习记录](https://github.com/tizi123139/Tasks/blob/main/第一阶段/Markdown学习笔记.md)
 
 ---
 
@@ -28,13 +28,13 @@
 
 > * ## **第三阶段**     
 >
->     [CSS学习记录](https://github.com/tizi123139/Tasks/blob/main/CSS学习笔记.md)
+>     [CSS学习记录](https://github.com/tizi123139/Tasks/blob/main/第三阶段/CSS学习笔记.md)
 >
->     [HTML学习记录](https://github.com/tizi123139/Tasks/blob/main/HTML学习笔记.md)
+>     [HTML学习记录](https://github.com/tizi123139/Tasks/blob/main/第三阶段/HTML学习笔记.md)
 >
->     [JavaScript学习记录](https://github.com/tizi123139/Tasks/blob/main/JavaScript学习笔记.md)
+>     [JavaScript学习记录](https://github.com/tizi123139/Tasks/blob/main/第三阶段/JavaScript学习笔记.md)
 >
->     [创建的demo](https://github.com/tizi123139/Tasks/blob/main/demo.html)
+>     [创建的demo](https://github.com/tizi123139/Tasks/blob/main/第三阶段/demo.html)
 
 ---
 
@@ -55,9 +55,9 @@
 
 >- ## 第五阶段   
 >
->   [第五阶段学习笔记](https://github.com/tizi123139/Tasks/blob/main/第五阶段学习笔记.md)
+>   [第五阶段学习笔记](https://github.com/tizi123139/Tasks/blob/main/第五阶段/第五阶段学习笔记.md)
 >
->   [实例demo](https://github.com/tizi123139/Tasks/blob/main/main.go)
+>   [实例demo](https://github.com/tizi123139/Tasks/blob/main/第五阶段/main.go)
 >
 
 ---
