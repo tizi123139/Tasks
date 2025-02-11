@@ -14,7 +14,7 @@ func (yang *Yangcun) add(name string){//改变结构体的值，通过结构体�
 
 func (lang *Langbao) add(name string){
 	lang.members2 = append(lang.members2,name)
-}//向羊村添加角色的方法
+}//向狼堡添加角色的方法
 
 func main(){
 	yangcun := Yangcun{}
