@@ -68,9 +68,16 @@
 
 >- ## 第六阶段
 >
+>  [第六阶段学习笔记](https://github.com/tizi123139/Tasks/blob/main/第六阶段/第六阶段学习笔记.md)
+>
+>  [实践内容二](https://github.com/tizi123139/Tasks/tree/main/第六阶段/实践内容/实践内容二)
+>
+>  [实践内容三](https://github.com/tizi123139/Tasks/tree/main/第六阶段/实践内容/实践内容三)
 >
 
+---
 
+>- ## 第七阶段
 
 ---
 
