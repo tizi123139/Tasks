@@ -70,7 +70,7 @@
 >
 >   [第六阶段学习笔记](https://github.com/tizi123139/Tasks/blob/main/第六阶段/第六阶段学习笔记.md)
 >
->    [实践内容](https://github.com/tizi123139/Tasks/blob/main/第六阶段/实践内容/实践内容.md)
+>   [实践内容](https://github.com/tizi123139/Tasks/blob/main/第六阶段/实践内容/实践内容.md)
 >
 >   [实践内容二](https://github.com/tizi123139/Tasks/tree/main/第六阶段/实践内容/实践内容二)
 >
@@ -81,9 +81,9 @@
 
 >- ## 第七阶段
 >
->  [第七阶段学习笔记](https://github.com/tizi123139/Tasks/blob/main/第七阶段/第七阶段学习笔记.md)
+>   [第七阶段学习笔记](https://github.com/tizi123139/Tasks/blob/main/第七阶段/第七阶段学习笔记.md)
 >
->  
+>    [CURD接口](https://github.com/tizi123139/Tasks/blob/main/第七阶段/实践内容/main.go)
 >
 
 ---
